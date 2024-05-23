@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"BH />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#home:hover{
+    color:blue;
+}
+  #about:hover{
+    color:blue;
+  }
+  #review:hover{
+    color:blue;
+  }
+  #contact:hover{
+    color:blue;
+  }
+  #face:hover{
+    color:blue;
+
+  }
+  #insta:hover{
+    color:rgb(244, 126, 23);
+  }
+  #twitter:hover{
+    color:skyblue;
+  }
+  #cars{
+    position:relative;
+cursor:pointer;
+  }
+  #cars::after{
+    content: " ";
+    height:2px;
+    width:100%;
+    position:absolute;
+    bottom:-5px;
+    left:0;
+    background-color:black;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+  }
+  #cars:hover::after{
+    transform: scaleX(1); 
+  }
+
+  #content{
+    justify-content: center;
+    font-size:15px;
+
+
+  }
+  #color{
+    color: blue;
+  }
+   </style>
+</head>
+<body>
+   
+      <nav class="navbar navbar-expand-sm ">
+        <div class="container">
+            
+          <a class="navbar-brand" href="#" style="font-size: 30px;" id="cars">Cars</a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar" style="font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif ;">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" id="home" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="about" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="review" href="#">Review</a>
+              </li>    
+              <li class="nav-item">
+                <a class="nav-link" id="contact" href="#">Contact</a>
+              </li>
+            </ul>
+           <div class="d-flex text-dark" style="position:relative;left:30%;font-size:30px">
+                <i class="fa fa-facebook p-2" id="face"></i>
+                <i class="fa fa-instagram p-2" id="insta"></i>
+                <i class="fa fa-twitter p-2" id="twitter"></i> 
+                
+ </div>
+        </div>
+        </div>
+      </nav>
+
+      <div class="row mt-5 ">
+            <div class="col mt-5">
+        <h2 class=" text-center">Car Dealing Experience.</h2> 
+        <div class="row ms-5">
+            <div class="col ms-5"> 
+               
+        <h4 class="ms-5  p-2" id="color">&nbsp;&nbsp;Redefined!</h4>
+    </div>
+    <div class="row ms-5">
+    <div class="col ms-5"id="content">
+      <p><b>Ferrari S.p.A. </b>is an Italian luxury sports car manufacturer based in Maranello, Italy. 
+        Founded in 1939 by Enzo Ferrari (1898–1988), the company built its first car, a sports racing car, in 1940. 
+        It adpoted its current name in 1945, and began to produce its current line of road cars in 1947. </p>
+  </div> 
+ <div class="row">
+    <div class="col p-3">
+  <a href="#" class="btn btn-md btn-primary active" style="position: relative; position: absolute; left: 25%;">
+    Explore cars</a>
+   </div> </div> 
+
+</div>
+</div> 
+            </div>
+<div class="col-md-6 mt-md-5">
+    <img class="mt-5" src="https://i.pinimg.com/originals/cf/c2/a3/cfc2a3ce6f93e3ab1e46f1225221da7f.gif">
+</div>
+</div> 
+
+<center>
+<div class="container">
+<h3 class="">Recommended Cars</h3>
+<p>See our latest car leasing deals below. Please be aware these special offers<br>
+may only be around for a limited amout of time </p>
+</div>
+</center>
+<br>
+
+
+  
+<div class=" container">
+  <div class="row">
+  <div class="col-3 bg-light text-center p-2 active">Used cars</div>
+  <div class="col-3 bg-info text-center p-2">Most Popular</div>
+  <div class="col-3 bg-danger text-center p-2">Recent Added</div>
+  <div class="col-3 bg-success text-center p-2">Luxury</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
